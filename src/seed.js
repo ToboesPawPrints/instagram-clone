@@ -2,10 +2,10 @@
 export function seedDatabase(firebase) {
     const users = [
       {
-        userId: 'bmjpkU8bBWRse2JwKgzOGTv5tUI3',
-        username: 'karl',
-        firstName: 'Karl',
-        emailAddress: 'karlhadwen@gmail.com',
+        userId: '7dOCp22svZQjuLrVVZaCx2rYGw62',
+        username: 'KitsiFox',
+        firstName: 'Kaleigh',
+        emailAddress: 'kaleigh@trustandwill.com',
         following: ['2'],
         dateCreated: Date.now(),
       },
@@ -14,7 +14,7 @@ export function seedDatabase(firebase) {
         username: 'raphael',
         firstName: 'Raphael',
         emailAddress: 'raphael@sanzio.com',
-        following: ['bmjpkU8bBWRse2JwKgzOGTv5tUI3'],
+        following: ['7dOCp22svZQjuLrVVZaCx2rYGw62'],
         dateCreated: Date.now(),
       },
       {
@@ -22,7 +22,7 @@ export function seedDatabase(firebase) {
         username: 'marshal',
         firstName: 'Marshal',
         emailAddress: 'marshal@mathers.com',
-        following: ['bmjpkU8bBWRse2JwKgzOGTv5tUI3'],
+        following: ['7dOCp22svZQjuLrVVZaCx2rYGw62'],
         dateCreated: Date.now(),
       },
       {
@@ -30,7 +30,7 @@ export function seedDatabase(firebase) {
         username: 'orwell',
         firstName: 'George',
         emailAddress: 'george@orwell.com',
-        following: ['bmjpkU8bBWRse2JwKgzOGTv5tUI3'],
+        following: ['7dOCp22svZQjuLrVVZaCx2rYGw62'],
         dateCreated: Date.now(),
       },
     ];
